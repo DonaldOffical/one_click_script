@@ -1,6 +1,4 @@
-# Easy install v2ray (xray) and trojan (trojan-go) script (ultimate script for all condition)
-
-# Trojan (支持 trojan-go版本) 和 V2ray (支持 xray版本) 一键安装脚本
+# trojan-go 和 xray 一键安装脚本
 
 # 支持 V2board 服务器端 V2Ray-Poseidon 或 soga 一键安装脚本
 
@@ -21,11 +19,6 @@
 13. 本脚本所使用端口除443和80外都是随机生成, 保证安全性, 不像其他多合一脚本写死固定端口容易被检测
 14. 本脚本不推荐安装多种v2ray的多种协议共存, 协议安装的越多安全性越低, 而且也不会提高速度, 没有必要使用多合一的脚本同时安装多个协议
 
-## Features English 
-1. Install V2Ray or Xray using VLESS or VMess, support all condition: VLESS+TCP+TLS / VLESS+Websocket+TLS(CDN) / VMess+TCP+TLS / VMess+Websocket+TLS(CDN)  
-2. Using Trojan or Nginx or v2ray-core / Xray-core as frontend listening port 443
-3. Install trojan or trojan-go and V2Ray or Xray on the same server to support all protocol.
-4. Support Debian9+, Ubuntu 16+ and CentOS 7+ operation systems
 
 
 ## 安装方法 Installation 
@@ -33,7 +26,7 @@
 ####  通过 curl 命令安装  via curl to install script
 
 ```bash
-curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/trojan_v2ray_install.sh && chmod +x ./trojan_v2ray_install.sh && ./trojan_v2ray_install.sh
+curl -O https://raw.githubusercontent.com/DonaldOffical/one_click_script/master/trojan_v2ray_install.sh && chmod +x ./trojan_v2ray_install.sh && ./trojan_v2ray_install.sh
 
 ```
 
@@ -42,7 +35,7 @@ curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/trojan_
 #### 通过 wget 命令安装 via wget to install script
 
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/jinwyp/one_click_script/master/trojan_v2ray_install.sh && chmod +x ./trojan_v2ray_install.sh && ./trojan_v2ray_install.sh
+wget --no-check-certificate https://raw.githubusercontent.com/DonaldOffical/one_click_script/master/trojan_v2ray_install.sh && chmod +x ./trojan_v2ray_install.sh && ./trojan_v2ray_install.sh
 
 ```
 
@@ -145,14 +138,14 @@ Let's Encrypt证书申请频率的限制
 #### via curl 安装命令 
 
 ```bash
-curl -O https://raw.githubusercontent.com/jinwyp/one_click_script/master/linux_install_software.sh && chmod +x ./linux_install_software.sh && ./linux_install_software.sh
+curl -O https://raw.githubusercontent.com/DonaldOffical/one_click_script/master/linux_install_software.sh && chmod +x ./linux_install_software.sh && ./linux_install_software.sh
 
 ```
 
 #### via wget 安装命令 
 
 ```bash
-wget --no-check-certificate https://raw.githubusercontent.com/jinwyp/one_click_script/master/linux_install_software.sh && chmod +x ./linux_install_software.sh && ./linux_install_software.sh
+wget --no-check-certificate https://raw.githubusercontent.com/DonaldOffical/one_click_script/master/linux_install_software.sh && chmod +x ./linux_install_software.sh && ./linux_install_software.sh
 
 ```
 
